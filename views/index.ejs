@@ -1,0 +1,24 @@
+<html>
+	<body>
+		<h3>Add a User!</h3>
+		<form action='/results' method='post'>
+			Name: <input type='text' name="name"><br>
+			Email: <input type="text" name="email"><br>
+		    Your Location:<select name="location">
+			    <option value="California">California</option>
+			    <option value="Oregon">Oregon</option>
+			    <option value="Washington">Washington</option>
+			    <option value="East Coast">East Coast</option>
+		    </select><br>
+		    Your Favorite Language:<select name="language">
+			    <option value="PHP">PHP</option>
+			    <option value="Ruby">Ruby</option>
+			    <option value="JavaScript">JavaScript</option>
+			    <option value="Python">Python</option>
+		    </select><br>
+			<textarea type="text" rows="4" cols="50" name="comment">
+			</textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
